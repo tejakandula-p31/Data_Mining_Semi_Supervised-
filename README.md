@@ -23,3 +23,54 @@ pip install -r requirements.txt
 Open the notebook:
 
 jupyter notebook DataMining.ipynb
+
+🧩 Features
+
+Data cleaning and preprocessing
+
+Exploratory data analysis (EDA)
+
+Handling class imbalance using SMOTE
+
+Model training and testing using:
+
+Logistic Regression
+
+Random Forest
+
+Decision Tree
+
+XGBoost (optional)
+
+Model evaluation using accuracy, precision, recall, F1-score, and confusion matrix
+
+📊 Dataset Information
+
+File: creditcard.csv
+
+Contains credit card transactions made by European cardholders in September 2013.
+
+Includes 284,807 transactions, with 492 fraud cases (highly imbalanced).
+
+Features are anonymized (V1, V2, ..., V28) plus Amount and Class (target variable).
+
+
+🚀 How It Works
+
+Load and explore the dataset.
+
+Perform data cleaning and normalization.
+
+Handle class imbalance using oversampling.
+
+Train multiple models and compare their performance.
+
+Visualize results with confusion matrix and ROC curve.
+
+
+📈 Results
+
+The models achieved high accuracy, but recall and precision are the most important metrics due to class imbalance.
+
+The Random Forest Classifier performed best in balancing recall and precision.
+
